@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="01_home.html">Página Inicial</a></li>
+                <li><a href="02_sobre.html">Sobre a clínica</a></li>
+                <li><a href="03_atendimento.html">Atendimento</a></li>
+                <li><a href="04_contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                 <h1>Contato</h1>
+                 <img width="1000" height="600" src="https://plus.unsplash.com/premium_photo-1661501026590-2a31a58a6715?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                 <h2>💬 Fale com a gente!<br></h2>
+                 Nossa equipe está pronta para te atender com atenção e carinho.<br> 
+                 Entre em contato para tirar dúvidas, agendar sua consulta ou saber mais sobre nossos serviços.<br>
+                 <br>
+                 <h3>📲 Agendamentos e Informações</h3>
+                 Atendimento via WhatsApp, telefone e e-mail.<br>
+                 <br>
+                 <h3>🕒 Horário da Central de Atendimento:</h3>
+                 Segunda a Sexta: 08h às 20h<br>
+                 Sábados: 08h às 13h<br>
+                 <br>
+                 📞 <b>(11) 91234-5678</b><br>
+                 📧 <a href="mailto:contato@clinicaessenciale.com.br">contato@clinicaessenciale.com.br</a><br>
+                 📱 WhatsApp: <a href="#####">Clique aqui para falar com a gente</a>
+                 <br>
+                 <br>
+                 <h3>📍 Localização</h3>
+                 📌 Av. das Flores, 123 – Sala 45<br>
+                 Jardim Aurora – São Paulo/SP<br>
+                 CEP: 04567-000 <br><br>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14627.478357914208!2d-46.6222245693115!3d-23.573126768175676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ceffa8322787f5%3A0x6e488f2590ac84a6!2sAv.%20das%20Flores%2C%20123%20-%20Jardim%20das%20Flores%2C%20Osasco%20-%20SP%2C%2006110-100!5e0!3m2!1spt-BR!2sbr!4v1750816402123!5m2!1spt-BR!2sbr" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <br>
+            <h2>Formulário de Contato</h2>
+            <i>Deixe sua mensagem e, em breve, um de nossos representantes vai entrar em contato com você.</i>
+            <br>
+            <form action="destino.html" method="post" name="formulario" id="formulario">
+                <label for="nome"><b>Nome Completo</b></label>
+                <input type="text"  name="nome" id="nome" size="50"><br><br>
+                <label for="telefone"><b>Telefone</b></label>
+                <input type="number" name="telefone" id="telefone" size="50"><br><br>
+                <label for="email"><b>E-mail</b></label>
+                <input type="e-mail" name="e-mail" id="e-mail" size="50"><br>
+                <br>
+                <label for="tipodeContato"><b>Tipo de contato</b></label>
+                    <select name="Selecionar" id="Selecionar">
+                    <option value="selected">Selecionar</option>
+                    <option value="agendamento">Agendamento</option>
+                    <option value="contato">Contato</option>
+                    <option value="reclamacao">Reclamação</option>
+                    <option value="sugestao">Sugestão</option></select>    
+                <br><br>
+                <label for="textolongo"><b>Mensagem:</b></label><br><br>
+                <textarea name="caixademensagem" id="texto" cols="80" rows="4">Escreva a sua mensagem aqui!</textarea><br>
+                <input type="submit" id="btSubmit" value="Enviar" class="botao"/>
+                <input type="reset" id="btReset" value="Limpar" class="botao"/>
+            </form>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <h4>Mapa do site</h4>
+                    🌿Página Inicial<br>
+                    🏥Sobre Nós<br>
+                    💙Atendimento<br>
+                    📲Contato<br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
